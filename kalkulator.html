@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kalkulator</title>
+  </head>
+  <body>
+    <h1>Kalkulator Sederhana</h1>
+    <form id="calculator">
+      <label for="num1">Angka 1:</label>
+      <input type="text" id="num1" name="num1" required />
+      <br />
+      <br />
+      <label for="operator">Operator:</label>
+      <select id="operator" name="operator" required>
+        <option value="">Pilih operator</option>
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+      </select>
+      <br />
+      <br />
+      <label for="num2">Angka 2:</label>
+      <input type="text" id="num2" name="num2" required />
+      <br />
+      <br />
+      <input type="submit" value="Hitung" />
+    </form>
+    <div id="hasil"></div>
+
+    <script src="js/calc.js"></script>
+  </body>
+</html>
